@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "what's up?", "how is it going?", "yo", "good to see you", "greetings"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?", "Nice to see you!", "Hello, how can I assist you today?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["goodbye", "bye", "see you", "take care", "later", "good night", "see ya"],
+      "responses": ["Goodbye!", "Take care!", "See you later!", "Farewell!", "Have a good day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks a lot", "appreciate it", "much appreciated", "thanks"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!", "Happy to assist!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name?", "who are you?", "do you have a name?", "what should I call you?"],
+      "responses": ["I am an AI assistant.", "I don't have a personal name. You can call me Assistant."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you?", "what's your age?", "when were you created?"],
+      "responses": ["I don't have an age. I am a computer program.", "Age doesn't apply to me. I was trained by Andrew."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like today?", "will it rain?", "weather forecast", "is it going to be sunny?", "do I need an umbrella today?"],
+      "responses": ["I'm sorry, I don't have access to real-time weather data.", "You can check the weather forecast on a weather website or app."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what's the time?", "do you know the time?", "current time", "what time is it?"],
+      "responses": ["I don't have access to real-time data, but you can check the time on your device.", "Sorry, I can't provide the current time."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "joke time!", "can you tell a joke?", "any good jokes?"],
+      "responses": ["Sure, here's a joke: Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? Because it had too many problems!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "I need assistance", "can you help me?", "I need help", "assist me"],
+      "responses": ["Of course! How can I assist you?", "I'm here to help. What do you need assistance with?", "Sure, what do you need help with?"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play some music", "I want to listen to music", "can you play a song?", "any music recommendations?"],
+      "responses": ["I'm sorry, I'm not able to play music.", "Unfortunately, I can't play music but I can recommend some artists based on your preferences."]
+    },
+    {
+      "tag": "books",
+      "patterns": ["recommend a book", "good books to read", "what should I read next?"],
+      "responses": ["How about '1984' by George Orwell? It's a classic.", "If you're into science fiction, 'Dune' by Frank Herbert is a must-read.", "For a gripping thriller, you might enjoy 'The Girl with the Dragon Tattoo' by Stieg Larsson."]
+    },
+    {
+      "tag": "directions",
+      "patterns": ["how do I get to", "I need directions to", "navigate to"],
+      "responses": ["I'm sorry, I don't have access to real-time navigation data.", "I recommend using a map application for the most accurate directions."]
+    }
+  ]
+}
